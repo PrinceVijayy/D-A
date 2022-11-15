@@ -15,16 +15,14 @@ public class ECC4_isPalindrome {
       return -2;
     } else {
       int dummy = num;
-      int sum = 0;
+      int result = 0;
       int reminder;
-      int temp = 100;
       while (num > 0) {
         reminder = num % 10;
-        sum += reminder * temp;
+        result=result*10+reminder;
         num /= 10;
-        temp /= 10;
       }
-      if (dummy == sum) {
+      if (dummy == result) {
         return 1;
       } else return 0;
     }

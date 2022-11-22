@@ -11,6 +11,7 @@ public class ECC13_sumOfRoundedValues {
         System.out.println("Enter third number");
         int num3 = sc.nextInt();
         System.out.println(sumOfRoundedValues(num1, num2, num3));
+        sc.close();
     }
 
     public static int sumOfRoundedValues(int num1, int num2, int num3) {

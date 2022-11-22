@@ -13,6 +13,7 @@ public class ECC6_getGreatest {
     System.out.println(getGreatest(132, -34)); // negative
     System.out.println(getGreatest(-44, 123)); // negative
     System.out.println(getGreatest(0, 134)); // zero
+    sc.close();
   }
 
   public static int getGreatest(int num1, int num2) {

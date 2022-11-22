@@ -6,6 +6,7 @@ public class ECC10_isEvenOrOdd {
         System.out.println("enter a number to find even or odd");
         int num = sc.nextInt();
         System.out.println(isEvenOrOdd(num));
+        sc.close();
     }
 
     public static String isEvenOrOdd(int num) {

@@ -6,6 +6,7 @@ public class ECC8_oddRounder {
         System.out.println("enter a number to find the odd rounder");
         int num=sc.nextInt();
         System.out.println(oddRounder(num));
+        sc.close();
     }
     public  static int oddRounder(int num){
         if(num<0){

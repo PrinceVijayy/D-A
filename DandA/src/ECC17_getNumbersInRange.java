@@ -9,6 +9,7 @@ public class ECC17_getNumbersInRange {
         System.out.println("Enter Number Two");
         int num2 = sc.nextInt();
         System.out.println(getNumbersInRange(num1, num2));
+        sc.close();
     }
 
     public static String getNumbersInRange(int num1, int num2) {

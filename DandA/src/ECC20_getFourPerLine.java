@@ -7,6 +7,7 @@ public class ECC20_getFourPerLine {
         System.out.println("Enter a Number ");
         int num = sc.nextInt();
         System.out.println(getFourPerLine(num));
+        sc.close();
     }
 
     public static String getFourPerLine(int num) {
@@ -16,13 +17,12 @@ public class ECC20_getFourPerLine {
         else {
             int i = 1;
             String result = "";
-            while (i < num) {
+            while (i <= num) {
                 result += i;
                 if (i % 4 == 0) {
                     result += "\n";
                 }else result+=" ";
                 i++;
-
             }
             return result;
         }

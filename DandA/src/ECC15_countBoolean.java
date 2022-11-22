@@ -11,6 +11,7 @@ public class ECC15_countBoolean {
         System.out.println("Enter third boolean");
         boolean b3=sc.nextBoolean();
         System.out.println(countBoolean(b1, b2, b3));
+        sc.close();
     }
     public static boolean countBoolean(boolean b1, boolean b2, boolean b3){
         if(b1 &&b2&&b3) return true;

@@ -6,6 +6,7 @@ public class ECC9_findSign {
         System.out.println("enter a number to find Sign of the number");
         int num = sc.nextInt();
         System.out.println(findSign(num));
+        sc.close();
     }
 
     public static int findSign(int num) {

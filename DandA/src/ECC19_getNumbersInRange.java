@@ -11,6 +11,7 @@ public class ECC19_getNumbersInRange {
         System.out.println("Enter increment number");
         int increment = sc.nextInt();
         System.out.println(getNumbersInRange(num1, num2, increment));
+        sc.close();
     }
 
     public static String getNumbersInRange(int num1, int num2, int increment) {

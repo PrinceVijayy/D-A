@@ -9,12 +9,14 @@ public class ECC3_getNextMultipleOf100 {
     System.out.println(getNextMultipleOf100(145));
     System.out.println(getNextMultipleOf100(0));
     System.out.println(getNextMultipleOf100(-44));
+    sc.close();
   }
 
   public static int getNextMultipleOf100(int num){
     if(num<=0){
       return -1;
-    }else{
+    }else if(num%100==0) return num;
+    else{
       num=num/100;
       return num*100+100;
     }

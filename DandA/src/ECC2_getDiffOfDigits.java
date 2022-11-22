@@ -10,6 +10,7 @@ public class ECC2_getDiffOfDigits {
     System.out.println(getDiffOfDigits(-44));
     System.out.println(getDiffOfDigits(104));
     System.out.println(getDiffOfDigits(8));
+    sc.close();
   }
 
   public static int getDiffOfDigits(int num) {

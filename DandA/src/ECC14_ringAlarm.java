@@ -13,6 +13,7 @@ public class ECC14_ringAlarm {
         boolean onVacationOrNot = sc.nextBoolean();
 
         System.out.println(ringAlarm(week, onVacationOrNot));
+        sc.close();
     }
 
     public static String ringAlarm(int week, boolean onVacationOrNot) {

@@ -6,6 +6,7 @@ public class ECC4_isPalindrome {
     System.out.println("Enter a number to find it is palindrome or not");
     int num = sc.nextInt();
     System.out.println(isPalindrome(num));
+    sc.close();
   }
 
   public static int isPalindrome(int num) {

@@ -6,6 +6,7 @@ public class ECC11_calculate {
         System.out.println("enter a number to find even or odd");
         int num = sc.nextInt();
         System.out.println(calculate(num));
+        sc.close();
     }
 
     public static int calculate(int num) {

@@ -13,6 +13,7 @@ public class ECC7_getLeastNum {
     System.out.println(getLeastNum(132, -34)); // negative
     System.out.println(getLeastNum(-44, 123)); // negative
     System.out.println(getLeastNum(0, 134)); // zero
+    sc.close();
   }
 
   public static int getLeastNum(int num1, int num2) {

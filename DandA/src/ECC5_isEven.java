@@ -10,6 +10,7 @@ public class ECC5_isEven {
     System.out.println(isEven(445)); // odd
     System.out.println(isEven(-44)); // negative
     System.out.println(isEven(0)); // zero
+    sc.close();
   }
 
   public static int isEven(int num) {

@@ -1,0 +1,6 @@
+
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ö³îïıÿÿÿÿ8°ïàá¾1
+L	java:S106"+Replace this use of System.out by a logger.(¬ÍÜşÿÿÿÿ8°ïàá¾1
+c
+java:S1126$"AReplace this if-then-else statement by a single return statement.(ÛŒ¯óşÿÿÿÿ8’Ôƒâ¾1

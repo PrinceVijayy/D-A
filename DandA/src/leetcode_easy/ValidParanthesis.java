@@ -33,9 +33,6 @@ public class ValidParanthesis {
                 break;
             }
         }
-        if (myStack.empty()) {
-            return true;
-        }
-        return false;
+        return myStack.empty();
     }
 }
